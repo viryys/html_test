@@ -1,0 +1,7 @@
+.search-form input {width: 100%; padding-right: 140px;}
+.search-form .submenu {position: absolute; right: 0.9375em; top: 10px;}
+.top-bar-section .search-form .has-dropdown > a {line-height: 24px; background: #fff; color: #606060;}
+.top-bar-section .search-form .has-dropdown > a::after {top: 12px; border-top-color: #606060;}
+.top-bar .search-button {background: #fff; padding: 4px 10px;}
+.top-bar .search-button span {background: url("/img/serch-button.png") no-repeat left center; height: 18px; width: 12px; display: inline-block}
+.top-bar .search-button:hover span {background: url("/img/serch-button.png") no-repeat right center;}
