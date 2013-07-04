@@ -1,7 +1,33 @@
-.search-form input {width: 100%; padding-right: 140px;}
+.top-bar-section input {line-height: 2em; height: 2em;}
+.top-bar-section .droplist {width: 100%; font-size: 0.7em; line-height: 2.5em; height: 2.5em;
+box-shadow: none; border: none; background: #fff; color: #606060; padding-top: 0; padding-bottom: 0;
+}
+form .droplist:after {
+    content: "";
+    display: block;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: #606060 transparent transparent transparent;
+    border-top-style: solid;
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+    margin-top: 0; }
+
+.top-bar {margin-bottom: 0;}
+
+.main-menu .dropdown-holder:hover .dropdown-menu{
+    display:block;
+}
+
+.has-form .search-form, .has-form .search-form .columns {height: 45px;}
 .search-form .submenu {position: absolute; right: 0.9375em; top: 10px;}
 .top-bar-section .search-form .has-dropdown > a {line-height: 24px; background: #fff; color: #606060;}
 .top-bar-section .search-form .has-dropdown > a::after {top: 12px; border-top-color: #606060;}
-.top-bar .search-button {background: #fff; padding: 4px 10px;}
+.top-bar .search-button {background: #fff; padding: 4px 10px; border: none; box-shadow: none;}
 .top-bar .search-button span {background: url("/img/serch-button.png") no-repeat left center; height: 18px; width: 12px; display: inline-block}
-.top-bar .search-button:hover span {background: url("/img/serch-button.png") no-repeat right center;}
+.top-bar .search-button:hover span {background: url("/img/serch-button.png") no-repeat left center;}
+.top-bar .search-button:hover {background: #fff; border: none; box-shadow: none;}
